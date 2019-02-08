@@ -106,6 +106,7 @@ a:hover{
   	letter-spacing: 3px;
   	word-spacing: 2px;
   	text-align: center;
+  	padding: 3% 0 1% 0; 
 	border: 3px solid #257985;
 	background-color: rgba(255,255,255,0.93);
 }
