@@ -3,12 +3,13 @@ Amina Dieng */
 
 html {
     height: 100%;
+    overflow-y: scroll;
 }
 
 body {
-	min-height: 100%;
-	font-weight: lighter;
+
 	height: 100%;
+	font-weight: lighter;
     margin: 0;
     padding: 0;
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
@@ -23,14 +24,12 @@ h1 {
   	word-spacing: 2px;
 }
 
-h2 {
-	font-variant: small-caps;
-  	letter-spacing: 3px;
-  	word-spacing: 2px;
-}
-
 p {
 	font-size: 18px;
+}
+
+ul {
+	padding-bottom: 4%;
 }
 
 li {
@@ -38,7 +37,7 @@ li {
 }
 
 img {
-	height: 70%;
+	height: 400px;
 }
 
 a{
@@ -52,19 +51,22 @@ a:hover{
 }
 
 .row {
-  display: flex;
-  position: fixed; 
-  width: 100%;
-  height: 100%; 
+	float: left;
+	width: 100%;
+	height: 100%; 
+	display: flex;
 }
 
 .column {
-  float: left;
-  flex-direction: row;
+	position: absolute;
+	flex-direction: row;
 }
 
 .side-panel {
+	float: left;
 	width: 25%;
+	position: relative;
+
   	border-right: 7px double #FFFFFF;
     padding-top: 10%;
     font-variant: small-caps;
@@ -75,11 +77,26 @@ a:hover{
 }
 
 .stage {
+	float: right;
 	width: 75%;
+
 	font-size: 27px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3%;
+	padding: 3% 10% 0 10%;
+}
+
+.job-title {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.job-date {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#container {
+	float:left;
+    width:100%;
 }
 
 #home {
@@ -87,16 +104,12 @@ a:hover{
   	letter-spacing: 3px;
   	word-spacing: 2px;
   	text-align: center;
-  	width: 75%;
-	font-size: 27px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3%;
 }
 
 #resume {
 	background-color: rgba(255,255,255,0.93);
 	letter-spacing: 0px;
+	line-height: 25pt;
 	font-weight: 100;
 	padding: 7%;
 	margin: 7%;
@@ -112,9 +125,13 @@ a:hover{
 	font-size: 27px;
 }
 
-#job-title {
-	font-weight: 500;
-	font-size: 17px;
+#rez-body {
+	padding: 3% 0 3% 0;
+	line-height: 12pt;
+}
+
+#lang {
+	float: right;
 }
 
 #bio {
@@ -125,8 +142,8 @@ a:hover{
 
 #copyright {
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	bottom: 1%;
-	left: 4.25%;
+	left: 2.25%;
 	font-size: 15px;
 }
