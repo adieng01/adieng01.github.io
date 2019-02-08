@@ -15,7 +15,7 @@ body {
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	letter-spacing: 1px;
 	word-spacing: 2px;
-	background-color: #CEB8A5; /* beautiful earth tone */
+	background-color: #5EA8A7;
 }
 
 h1 {
@@ -46,6 +46,7 @@ a{
 }
 
 a:hover{
+	color: #ff4447;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -66,14 +67,15 @@ a:hover{
 	float: left;
 	width: 25%;
 	position: relative;
-
   	border-right: 7px double #FFFFFF;
+  	border-bottom: 7px double #FFFFFF;
+  	border-top: 7px double #FFFFFF;
     padding-top: 10%;
     font-variant: small-caps;
   	letter-spacing: 3px;
   	word-spacing: 2px;
   	text-align: center;
-  	background-color: #E5CCB7;
+  	background-color: #f0eff0;
 }
 
 .stage {
@@ -113,7 +115,7 @@ a:hover{
 	font-weight: 100;
 	padding: 7%;
 	margin: 7%;
-	border: 3px solid #A29182;
+	border: 3px solid #257985;
 }
 
 #rez-head {
@@ -147,7 +149,7 @@ a:hover{
 #bio {
 	background-color: rgba(255,255,255,0.93);
 	padding: 5%;
-	border: 3px solid #A29182;
+	border: 3px solid #257985;
 }
 
 #copyright {
