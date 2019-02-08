@@ -130,8 +130,18 @@ a:hover{
 	line-height: 12pt;
 }
 
+#extra {
+	font-size: 15px;
+	margin-bottom: -2%;
+	line-height: 0;
+}
+
+#act {
+	font-weight: 530;
+}
+
 #lang {
-	float: right;
+	
 }
 
 #bio {
