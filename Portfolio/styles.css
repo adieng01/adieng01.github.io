@@ -37,7 +37,7 @@ li {
 }
 
 img {
-	height: 400px;
+	height: 410px;
 }
 
 a{
@@ -152,6 +152,7 @@ a:hover{
 #bio {
 	background-color: rgba(255,255,255,0.93);
 	padding: 5%;
+	line-height: 20pt;
 	border: 3px solid #257985;
 }
 
