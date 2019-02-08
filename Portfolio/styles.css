@@ -59,7 +59,6 @@ a:hover{
 }
 
 .column {
-	position: absolute;
 	flex-direction: row;
 }
 
@@ -94,6 +93,16 @@ a:hover{
 .job-date {
 	font-weight: 300;
 	font-size: 15px;
+}
+
+.extra {
+	font-size: 15px;
+	margin-bottom: -2%;
+	line-height: 0;
+}
+
+.act {
+	font-weight: 500;
 }
 
 #container {
@@ -133,16 +142,6 @@ a:hover{
 #rez-body {
 	padding: 3% 0 3% 0;
 	line-height: 12pt;
-}
-
-#extra {
-	font-size: 15px;
-	margin-bottom: -2%;
-	line-height: 0;
-}
-
-#act {
-	font-weight: 530;
 }
 
 #lang {
